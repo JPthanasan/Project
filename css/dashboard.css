@@ -1,0 +1,112 @@
+#dashboardMainContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+body{
+  margin-block-start: 0px;
+}
+
+div.dashboard_sidebar{
+  width: 30%;
+  background: #323232;
+  height: 100vh;
+}
+
+div.dashboard_content_container{
+  width: 70%;
+}
+
+h3.dashboard_logo{
+  color: plum;
+  font-size: 80px;
+  text-align: center;
+}
+
+div.dashboard_sidebar_user{
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom: 2px solid plum;
+}
+
+div.dashboard_content_container{
+  width: 70%;
+  background: whitesmoke;
+}
+
+div.dashboard_sidebar_user img{
+  width: 60px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+div.dashboard_sidebar_user span{
+  top: 20%;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: cornsilk;
+  display: inline-blocks;
+}
+
+ul.dashboard_menu_lists{
+  margin-top: 20px;
+  padding-inline-start: unset;
+}
+
+ul.dashboard_menu_lists li{
+  padding: 15px 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+ul.dashboard_menu_lists li a{
+  text-decoration: none;
+  color: cornsilk;
+  display: block;
+  font-size: 20px;
+}
+
+ul.dashboard_menu_lists li a i{
+  font-size: 25px;
+}
+
+/*ul.dashboard_menu_lists li.menuActive{
+  background: plum;
+  color: cornsilk;
+}*/
+
+ul.dashboard_menu_lists li:hover{
+  background: plum;
+  color: cornsilk;
+  transition: 0.3s all;
+}
+
+div.dashboard_topNav{
+  background: white;
+  padding: 20px;
+}
+
+div.dashboard_topNav a{
+  color: #848383;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a#logoutBtn{
+  float: right;
+}
+
+div.dashboard_content{
+  padding: 50px 10px 10px 10px;
+}
+
+div.dashboard_content_main{
+  background: white;
+  min-height: 800px;
+  height: 100%;
+}
