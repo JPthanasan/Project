@@ -1,5 +1,5 @@
 body{
-    background: url('../image/BG-login.jpg') no-repeat center center fixed;
+    background-image: url(../image/BG-login.jpg);
     background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
